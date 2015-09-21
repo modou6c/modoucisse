@@ -1,0 +1,62 @@
+body {
+	background: grey url('../img/noise.png');
+	color: black;
+}
+
+#content {
+  width: 450px;
+  height: 50%;
+  margin: 25% auto 0 auto;
+  text-align: center;
+}
+
+#resource {
+  width: 225px;
+  margin: 0; padding: 0;
+  float: left;
+  line-height: 1.3em;
+}
+
+.link {
+  color: #A9A9A9;/*#DCDCDC*/;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 1.5em;
+}
+form {
+  width: 35%;
+  height: 50%;
+  margin: 10% auto 0 auto;
+}
+input, textarea {
+  width: 30%;
+  margin-bottom: 7px;
+  padding: 0;
+  float: left;
+  line-height: 1.3em;
+}
+label{
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: larger;
+  color : #66512c;
+}
+button {
+  margin-top: 5px;
+}
+
+element.style {
+}
+#sideBar {
+  background: #e0e1e2 url('../img/side.png');
+  width: 230px;
+  min-height: 100%;
+  position: fixed;
+  box-shadow: 0px 0px 9px #000;
+  padding-top: 45px;
+  text-align: center;
+}
+#sideBar #pp {
+  border: 5px solid #DCDCDC;
+  border-radius: 55px;
+  width: 100px;
+}
